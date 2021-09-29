@@ -1,12 +1,12 @@
 import React from 'react';
-import Main from './pages/Main';
+import AppRouter from './components/AppRouter';
 import Navigation from './pages/Navigation';
 
 function App() {
   return (
     <div>
       <Navigation/>
-      <Main/>
+      <AppRouter />
     </div>
   );
 }
